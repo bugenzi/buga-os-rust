@@ -1,0 +1,13 @@
+# in .cargo/config.toml
+
+[unstable]
+build-std = ["core", "compiler_builtins"]
+
+# Since we cant link C library on the os we need  to use alternative memset
+# This is by defualt turned off so it dosent colide with the implemenation of c
+
+build-std-features = ["compiler-builtins-mem"]
+
+
+[build]
+target = "x86_64-buga_os.json"
