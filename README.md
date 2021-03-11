@@ -115,7 +115,7 @@ Rust unsafe was used becouse rust compiler dosent know if this is a valid pointe
     NOTE 
         Unsafe dosent remove safety checks 
 
-                Unsafe 5 things it lets me do :
+  Unsafe 5 things it lets me do :
 
 - Derefrence a raw pointer 
 - Call an unsafe function or method 
